@@ -1,31 +1,31 @@
-# nome tabella : cars
+# name of the table : cars
 
-colonne tabella:
+table columns:
 
--ID 
--targa
--prezzo
--alimentazione
--cambio
--stato
--anno
--km_percorsi
--modello
--telaio
--potenza_cavalli
--colore
--descrizione
--posizione
--porte
--posti
--euro
--consumo_medio
+-ID
+-vin
+-license_plate 
+-price
+-is available
+-model_ID
+-year
+-mileage
+-fuel_type
+-transmission
+-status
+-engine
+-horsepower
+-drive_type
+-emission_class
+-avg_consumption
+-battery_capacity
+-color
+-doors
+-seats
 -gps
 -cruise_control
--batteria
--disponibile
--cilindrata
--trazione
--sensori_parcheggio
--incidentata
--altri_accessori
+-parking_sensors
+-demaged
+-location
+-description
+-other_features
