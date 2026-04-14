@@ -9,13 +9,13 @@ table columns:
 -license_plate 
     CHAR 7  - UNIQUE - NULL
 -price
-    DECIMAL 7, 2 - NOT NULL - INDEX
+    DECIMAL 10, 2 - NOT NULL - INDEX
 -is available
     TINYINT - DEFAULT 0 - INDEX
 -model
     VARCHAR 50 - NOT NULL - INDEX
 -year
-    NOT NULL - INDEX
+    YEAR - NOT NULL - INDEX
 -mileage
     INT - DEFAULT 0 - INDEX
 -fuel_type
@@ -31,7 +31,7 @@ table columns:
 -emission_class
     TINYINT - NULL
 -avg_consumption
-    DECIMAL 3, 2 - NULL
+    DECIMAL 6, 2 - NULL
 -battery_capacity
     SMALLINT - NULL
 -color
@@ -47,7 +47,7 @@ table columns:
 -parking_sensors
     TINYINT - NULL
 -location
-    CHAR 50 - NOT NULL
+    VARCHAR 50 - NOT NULL
 -description
     TEXT - NULL
 -other_features
